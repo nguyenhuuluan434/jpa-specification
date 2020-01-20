@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
+
 public interface MemberService {
     List<Member> getMembers(FilterRequest filterRequest, String searchString) throws Exception;
 }
