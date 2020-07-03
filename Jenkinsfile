@@ -21,7 +21,7 @@ pipeline {
 
     stage('Deliver') {
       steps {
-        sh './jpa-specification/scripts/deliver.sh'
+        sh './scripts/deliver.sh'
       }
     }
 
